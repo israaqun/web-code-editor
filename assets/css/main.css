@@ -1,0 +1,46 @@
+.title {
+  margin-bottom: 30px;
+  padding-top: 10px;
+  font-weight: 600;
+
+}
+
+#editor-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.code-editor-container {
+  display: flex;
+  height: 40%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.code-editor {
+  flex: 1;
+  border: 1px solid #ccc;
+  resize: vertical;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+}
+
+#html-editor {
+  height: 100%;
+}
+
+#css-editor {
+  height: 100%;
+}
+
+#js-editor {
+  height: 100%;
+}
+
+#result {
+  border: 1px solid #0c0b0b;
+  overflow: auto;
+  height: 40%;
+}
